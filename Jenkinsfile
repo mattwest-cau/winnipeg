@@ -7,6 +7,7 @@ pipeline {
             steps {
                 sh 'mvn --version'
                 sh 'echo Hello World'
+                sh 'hostname -f'
             }
         }
     }
